@@ -1,0 +1,16 @@
+{
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "repodependent-internal3",
+      "build_source_folder": "repodependent-internal3",
+      "build_output_subfolder": "repodependent-internal3",
+      "locale": "zh-cn",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "build_entry_point": "op"
+    }
+  ],
+  "skip_source_output_uploading": false
+}
