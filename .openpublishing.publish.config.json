@@ -1,26 +1,28 @@
 {
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "enable_incremental_build": true,
   "docsets_to_publish": [
     {
       "docset_name": "RMS_Reference_21",
       "build_source_folder": "RMS_Reference_21_jsntcy",
       "build_output_subfolder": "RMS_Reference_21_jsntcy",
       "locale": "zh-cn",
-      "version": 0,
       "open_to_public_contributors": true,
-      "build_entry_point": "docs"
+      "build_entry_point": "docs",
+      "version": 0
     },
     {
       "docset_name": "RMS_Reference_42",
       "build_source_folder": "RMS_Reference_42_jsntcy",
       "build_output_subfolder": "RMS_Reference_42_jsntcy",
       "locale": "zh-cn",
-      "version": 0,
       "open_to_public_contributors": true,
-      "build_entry_point": "docs"
+      "build_entry_point": "docs",
+      "version": 0
     }
   ],
-  "skip_source_output_uploading": false
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "enable_incremental_build": true,
+  "need_generate_pdf_url_template": false
 }
